@@ -1,0 +1,2466 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_99a9d6af713e3e46b0c4a1f9002b4ba5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_99a9d6af713e3e46b0c4a1f9002b4ba5" ></div>
+        
+</body>
+<script>    
+    
+            var map_99a9d6af713e3e46b0c4a1f9002b4ba5 = L.map(
+                "map_99a9d6af713e3e46b0c4a1f9002b4ba5",
+                {
+                    center: [37.4073237, 127.1162796],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0574e2fbf88f870cabea17b30ba8e248 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}{r}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+            var circle_2ebfeccf20242c1ee6f3f8efc2ac062c = L.circle(
+                [37.56990505908962, 126.98735835661687],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_a1950b23397fea7a6a296de58dc0c644 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_fae643a0a51951aebc70a1d4b30b9970 = $(`<div id="html_fae643a0a51951aebc70a1d4b30b9970" style="width: 100.0%; height: 100.0%;">서울 종로구 종로2가 71-2</div>`)[0];
+            popup_a1950b23397fea7a6a296de58dc0c644.setContent(html_fae643a0a51951aebc70a1d4b30b9970);
+        
+
+        circle_2ebfeccf20242c1ee6f3f8efc2ac062c.bindPopup(popup_a1950b23397fea7a6a296de58dc0c644)
+        ;
+
+        
+    
+    
+            circle_2ebfeccf20242c1ee6f3f8efc2ac062c.bindTooltip(
+                `<div>
+                     알라딘중고서점 종로점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2b583b74487fea1a02a2fbbcd3e72de0 = L.circle(
+                [37.50154656874925, 127.02640018548142],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_3a70a5c2ce96f9d8b63a24776269f761 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_ba410061f70b3709c96b079e1827c46d = $(`<div id="html_ba410061f70b3709c96b079e1827c46d" style="width: 100.0%; height: 100.0%;">서울 강남구 역삼동 814-6</div>`)[0];
+            popup_3a70a5c2ce96f9d8b63a24776269f761.setContent(html_ba410061f70b3709c96b079e1827c46d);
+        
+
+        circle_2b583b74487fea1a02a2fbbcd3e72de0.bindPopup(popup_3a70a5c2ce96f9d8b63a24776269f761)
+        ;
+
+        
+    
+    
+            circle_2b583b74487fea1a02a2fbbcd3e72de0.bindTooltip(
+                `<div>
+                     알라딘중고서점 강남점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3c56ad53d505f8f8415f4e0115e0b44f = L.circle(
+                [37.54901373770552, 126.91414276152327],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_9ef095676c50d3de6743aad7413dab0c = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_e479bdb4b609dd8ca385fe6c5adb16cc = $(`<div id="html_e479bdb4b609dd8ca385fe6c5adb16cc" style="width: 100.0%; height: 100.0%;">서울 마포구 합정동 414-3</div>`)[0];
+            popup_9ef095676c50d3de6743aad7413dab0c.setContent(html_e479bdb4b609dd8ca385fe6c5adb16cc);
+        
+
+        circle_3c56ad53d505f8f8415f4e0115e0b44f.bindPopup(popup_9ef095676c50d3de6743aad7413dab0c)
+        ;
+
+        
+    
+    
+            circle_3c56ad53d505f8f8415f4e0115e0b44f.bindTooltip(
+                `<div>
+                     알라딘중고서점 합정점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0c2be744b2cce4d47091d958e350e545 = L.circle(
+                [37.517612561686285, 126.90649816383888],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_f6f16d13440e6d4dfe487688d0b9db38 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_777ef58c9a70a3335d104f9f9527dfc5 = $(`<div id="html_777ef58c9a70a3335d104f9f9527dfc5" style="width: 100.0%; height: 100.0%;">서울 영등포구 영등포동3가 9-13</div>`)[0];
+            popup_f6f16d13440e6d4dfe487688d0b9db38.setContent(html_777ef58c9a70a3335d104f9f9527dfc5);
+        
+
+        circle_0c2be744b2cce4d47091d958e350e545.bindPopup(popup_f6f16d13440e6d4dfe487688d0b9db38)
+        ;
+
+        
+    
+    
+            circle_0c2be744b2cce4d47091d958e350e545.bindTooltip(
+                `<div>
+                     알라딘중고서점 영등포점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bb9832227655c6aa6770f1e419660676 = L.circle(
+                [37.5826890394332, 126.998827096907],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_dede52e605f1d5ea3ec3f285a545bcad = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_68a59cf842cd5995d059aa93fc0833bc = $(`<div id="html_68a59cf842cd5995d059aa93fc0833bc" style="width: 100.0%; height: 100.0%;">서울 종로구 명륜4가 187</div>`)[0];
+            popup_dede52e605f1d5ea3ec3f285a545bcad.setContent(html_68a59cf842cd5995d059aa93fc0833bc);
+        
+
+        circle_bb9832227655c6aa6770f1e419660676.bindPopup(popup_dede52e605f1d5ea3ec3f285a545bcad)
+        ;
+
+        
+    
+    
+            circle_bb9832227655c6aa6770f1e419660676.bindTooltip(
+                `<div>
+                     알라딘중고서점 대학로점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5e1d0be6e4b039230f471a6a5c561b79 = L.circle(
+                [37.4824229997248, 126.930131516226],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_9c23394cea52ed98ce8c77ad579a24ee = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_5b45f2df16281e9838ea2abff5b1e9ba = $(`<div id="html_5b45f2df16281e9838ea2abff5b1e9ba" style="width: 100.0%; height: 100.0%;">서울 관악구 신림동 1641-16</div>`)[0];
+            popup_9c23394cea52ed98ce8c77ad579a24ee.setContent(html_5b45f2df16281e9838ea2abff5b1e9ba);
+        
+
+        circle_5e1d0be6e4b039230f471a6a5c561b79.bindPopup(popup_9c23394cea52ed98ce8c77ad579a24ee)
+        ;
+
+        
+    
+    
+            circle_5e1d0be6e4b039230f471a6a5c561b79.bindTooltip(
+                `<div>
+                     알라딘중고서점 신림점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8a16c889ed56746b06a29eef73d74bbf = L.circle(
+                [37.5410922495586, 127.070769568006],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_540d0741173d314360066f7d98ec57c0 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_9a97b6fbbae9cadd1accee3dbf6f7443 = $(`<div id="html_9a97b6fbbae9cadd1accee3dbf6f7443" style="width: 100.0%; height: 100.0%;">서울 광진구 화양동 5-104</div>`)[0];
+            popup_540d0741173d314360066f7d98ec57c0.setContent(html_9a97b6fbbae9cadd1accee3dbf6f7443);
+        
+
+        circle_8a16c889ed56746b06a29eef73d74bbf.bindPopup(popup_540d0741173d314360066f7d98ec57c0)
+        ;
+
+        
+    
+    
+            circle_8a16c889ed56746b06a29eef73d74bbf.bindTooltip(
+                `<div>
+                     알라딘중고서점 건대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_30710103c748278e4840e5c0d97db8a1 = L.circle(
+                [37.5183915623156, 127.022989974349],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_4a800a328a316b65ab51f3023a03a223 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_5b0182fe7243ad0397b9589fb0ce4068 = $(`<div id="html_5b0182fe7243ad0397b9589fb0ce4068" style="width: 100.0%; height: 100.0%;">서울 강남구 신사동 536-8</div>`)[0];
+            popup_4a800a328a316b65ab51f3023a03a223.setContent(html_5b0182fe7243ad0397b9589fb0ce4068);
+        
+
+        circle_30710103c748278e4840e5c0d97db8a1.bindPopup(popup_4a800a328a316b65ab51f3023a03a223)
+        ;
+
+        
+    
+    
+            circle_30710103c748278e4840e5c0d97db8a1.bindTooltip(
+                `<div>
+                     알라딘중고서점 가로수길점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9daf37a61e8697e40a65912929a19398 = L.circle(
+                [37.5576063840726, 126.936698053885],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_6b55744221a1e32cb2ad4868a3979821 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_b1e4e2245554405cbf6fd9f615fda7d3 = $(`<div id="html_b1e4e2245554405cbf6fd9f615fda7d3" style="width: 100.0%; height: 100.0%;">서울 서대문구 창천동 31-39</div>`)[0];
+            popup_6b55744221a1e32cb2ad4868a3979821.setContent(html_b1e4e2245554405cbf6fd9f615fda7d3);
+        
+
+        circle_9daf37a61e8697e40a65912929a19398.bindPopup(popup_6b55744221a1e32cb2ad4868a3979821)
+        ;
+
+        
+    
+    
+            circle_9daf37a61e8697e40a65912929a19398.bindTooltip(
+                `<div>
+                     알라딘중고서점 신촌점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7359bc8db90a45533d27ffd192212658 = L.circle(
+                [37.65924158857138, 126.77000677234157],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_ffa7c427db20a965347a75e6b4fbcd30 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_64d22bb1de668f18d17664b751d52130 = $(`<div id="html_64d22bb1de668f18d17664b751d52130" style="width: 100.0%; height: 100.0%;">경기 고양시 일산동구 장항동 769-2</div>`)[0];
+            popup_ffa7c427db20a965347a75e6b4fbcd30.setContent(html_64d22bb1de668f18d17664b751d52130);
+        
+
+        circle_7359bc8db90a45533d27ffd192212658.bindPopup(popup_ffa7c427db20a965347a75e6b4fbcd30)
+        ;
+
+        
+    
+    
+            circle_7359bc8db90a45533d27ffd192212658.bindTooltip(
+                `<div>
+                     알라딘중고서점 일산점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c6a3d3fb11d91f6bd11ecd829bee840b = L.circle(
+                [37.6174148915539, 126.919920084796],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_42d4327dd98861946d9b4ab2e1728ac3 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_a8dc37351247edb431448d0f624a9638 = $(`<div id="html_a8dc37351247edb431448d0f624a9638" style="width: 100.0%; height: 100.0%;">서울 은평구 대조동 198-27</div>`)[0];
+            popup_42d4327dd98861946d9b4ab2e1728ac3.setContent(html_a8dc37351247edb431448d0f624a9638);
+        
+
+        circle_c6a3d3fb11d91f6bd11ecd829bee840b.bindPopup(popup_42d4327dd98861946d9b4ab2e1728ac3)
+        ;
+
+        
+    
+    
+            circle_c6a3d3fb11d91f6bd11ecd829bee840b.bindTooltip(
+                `<div>
+                     알라딘중고서점 연신내점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4460b433c9f1a49e09cba09b2bc305f1 = L.circle(
+                [37.4843714568171, 126.783379131297],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_5f1d302a751a2cf9e04d42c8f989ed05 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_72f2af3a99558b4bf817108c5654a224 = $(`<div id="html_72f2af3a99558b4bf817108c5654a224" style="width: 100.0%; height: 100.0%;">경기 부천시 심곡동 172-15</div>`)[0];
+            popup_5f1d302a751a2cf9e04d42c8f989ed05.setContent(html_72f2af3a99558b4bf817108c5654a224);
+        
+
+        circle_4460b433c9f1a49e09cba09b2bc305f1.bindPopup(popup_5f1d302a751a2cf9e04d42c8f989ed05)
+        ;
+
+        
+    
+    
+            circle_4460b433c9f1a49e09cba09b2bc305f1.bindTooltip(
+                `<div>
+                     알라딘중고서점 부천점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_409e591f5720dabad3cc1d871b4ede26 = L.circle(
+                [37.2023185172048, 127.068974152244],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_2f2741effd42c8430d7a5762e1116963 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_12650c0201fa34ce75b73f70866d231c = $(`<div id="html_12650c0201fa34ce75b73f70866d231c" style="width: 100.0%; height: 100.0%;">경기 화성시 반송동 98</div>`)[0];
+            popup_2f2741effd42c8430d7a5762e1116963.setContent(html_12650c0201fa34ce75b73f70866d231c);
+        
+
+        circle_409e591f5720dabad3cc1d871b4ede26.bindPopup(popup_2f2741effd42c8430d7a5762e1116963)
+        ;
+
+        
+    
+    
+            circle_409e591f5720dabad3cc1d871b4ede26.bindTooltip(
+                `<div>
+                     알라딘중고서점 동탄점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_786698aed9eb07807bdd03ebfc18d085 = L.circle(
+                [37.36008696879688, 126.93113231733928],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_c31e712d556c05d22c50188d1124998e = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_86820efd92e7d5c90de6a0ef9ebb1d9f = $(`<div id="html_86820efd92e7d5c90de6a0ef9ebb1d9f" style="width: 100.0%; height: 100.0%;">경기 군포시 산본동 1136</div>`)[0];
+            popup_c31e712d556c05d22c50188d1124998e.setContent(html_86820efd92e7d5c90de6a0ef9ebb1d9f);
+        
+
+        circle_786698aed9eb07807bdd03ebfc18d085.bindPopup(popup_c31e712d556c05d22c50188d1124998e)
+        ;
+
+        
+    
+    
+            circle_786698aed9eb07807bdd03ebfc18d085.bindTooltip(
+                `<div>
+                     알라딘중고서점 산본점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0ff24e37d205db0c6171b7eda339e7cc = L.circle(
+                [37.6379888903912, 127.026045045605],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_9d89349e0c49f7e01e28a33f59c801c9 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_4d579aa0ebb4b024542449b2a5410cdd = $(`<div id="html_4d579aa0ebb4b024542449b2a5410cdd" style="width: 100.0%; height: 100.0%;">서울 강북구 번동 418-18</div>`)[0];
+            popup_9d89349e0c49f7e01e28a33f59c801c9.setContent(html_4d579aa0ebb4b024542449b2a5410cdd);
+        
+
+        circle_0ff24e37d205db0c6171b7eda339e7cc.bindPopup(popup_9d89349e0c49f7e01e28a33f59c801c9)
+        ;
+
+        
+    
+    
+            circle_0ff24e37d205db0c6171b7eda339e7cc.bindTooltip(
+                `<div>
+                     알라딘중고서점 수유점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_31496b9e5db45355b75c2ff9c3b43e9a = L.circle(
+                [37.26597591490386, 127.00135286463203],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_0ecfaeb1cc96aa9fba4291af5c98b960 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_5d0a675164dbc595c5e902433bc3c58d = $(`<div id="html_5d0a675164dbc595c5e902433bc3c58d" style="width: 100.0%; height: 100.0%;">경기 수원시 팔달구 매산로1가 57-69</div>`)[0];
+            popup_0ecfaeb1cc96aa9fba4291af5c98b960.setContent(html_5d0a675164dbc595c5e902433bc3c58d);
+        
+
+        circle_31496b9e5db45355b75c2ff9c3b43e9a.bindPopup(popup_0ecfaeb1cc96aa9fba4291af5c98b960)
+        ;
+
+        
+    
+    
+            circle_31496b9e5db45355b75c2ff9c3b43e9a.bindTooltip(
+                `<div>
+                     알라딘중고서점 수원점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0f0bd182a8a5e35e0af5b1175845cb72 = L.circle(
+                [35.1554938667339, 129.059585976992],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_801035ab19fe5ae76b9b33a3a51a46a8 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_bec9583576c4c62e927af2051c4a6240 = $(`<div id="html_bec9583576c4c62e927af2051c4a6240" style="width: 100.0%; height: 100.0%;">부산 부산진구 부전동 165-2</div>`)[0];
+            popup_801035ab19fe5ae76b9b33a3a51a46a8.setContent(html_bec9583576c4c62e927af2051c4a6240);
+        
+
+        circle_0f0bd182a8a5e35e0af5b1175845cb72.bindPopup(popup_801035ab19fe5ae76b9b33a3a51a46a8)
+        ;
+
+        
+    
+    
+            circle_0f0bd182a8a5e35e0af5b1175845cb72.bindTooltip(
+                `<div>
+                     알라딘중고서점 부산서면점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d0a1d12f67d169d63694a7f602ff4dd8 = L.circle(
+                [37.65476722858096, 127.06002088370848],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_cf814d9df0e36271dfaba6eb29cdc571 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_dd0b454b39bc7ecfc6281ec1560da959 = $(`<div id="html_dd0b454b39bc7ecfc6281ec1560da959" style="width: 100.0%; height: 100.0%;">서울 노원구 상계동 712</div>`)[0];
+            popup_cf814d9df0e36271dfaba6eb29cdc571.setContent(html_dd0b454b39bc7ecfc6281ec1560da959);
+        
+
+        circle_d0a1d12f67d169d63694a7f602ff4dd8.bindPopup(popup_cf814d9df0e36271dfaba6eb29cdc571)
+        ;
+
+        
+    
+    
+            circle_d0a1d12f67d169d63694a7f602ff4dd8.bindTooltip(
+                `<div>
+                     알라딘중고서점 노원역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cbe11ed8d0d48aafaaa2a1e78c6b21e9 = L.circle(
+                [35.1481966157082, 126.917729043091],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_10c9728778cba599ca49352fe9d6a5c1 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_7f1b973fba552c9ced61db56d1971d6b = $(`<div id="html_7f1b973fba552c9ced61db56d1971d6b" style="width: 100.0%; height: 100.0%;">광주 동구 금남로2가 34</div>`)[0];
+            popup_10c9728778cba599ca49352fe9d6a5c1.setContent(html_7f1b973fba552c9ced61db56d1971d6b);
+        
+
+        circle_cbe11ed8d0d48aafaaa2a1e78c6b21e9.bindPopup(popup_10c9728778cba599ca49352fe9d6a5c1)
+        ;
+
+        
+    
+    
+            circle_cbe11ed8d0d48aafaaa2a1e78c6b21e9.bindTooltip(
+                `<div>
+                     알라딘중고서점 광주충장로점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_62fa1dfec9f7b8c8045116becc342ee1 = L.circle(
+                [37.4442007096131, 126.702176395527],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_221fd1a8a9f8d3197af7c0595c776656 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_fb5cee9b591d73657c2db26c5a5ada9d = $(`<div id="html_fb5cee9b591d73657c2db26c5a5ada9d" style="width: 100.0%; height: 100.0%;">인천 남동구 구월동 1472</div>`)[0];
+            popup_221fd1a8a9f8d3197af7c0595c776656.setContent(html_fb5cee9b591d73657c2db26c5a5ada9d);
+        
+
+        circle_62fa1dfec9f7b8c8045116becc342ee1.bindPopup(popup_221fd1a8a9f8d3197af7c0595c776656)
+        ;
+
+        
+    
+    
+            circle_62fa1dfec9f7b8c8045116becc342ee1.bindTooltip(
+                `<div>
+                     알라딘중고서점 인천구월점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_68888ef3b5c2c77bd1c65a0bce528d05 = L.circle(
+                [37.56990505908962, 126.98735835661687],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_e603f39933a41490a7d814a1cc92d5f4 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_d654f38a06a2ea9aafd377029ad707f5 = $(`<div id="html_d654f38a06a2ea9aafd377029ad707f5" style="width: 100.0%; height: 100.0%;">서울 종로구 종로2가 71-2</div>`)[0];
+            popup_e603f39933a41490a7d814a1cc92d5f4.setContent(html_d654f38a06a2ea9aafd377029ad707f5);
+        
+
+        circle_68888ef3b5c2c77bd1c65a0bce528d05.bindPopup(popup_e603f39933a41490a7d814a1cc92d5f4)
+        ;
+
+        
+    
+    
+            circle_68888ef3b5c2c77bd1c65a0bce528d05.bindTooltip(
+                `<div>
+                     알라딘중고서점 종로점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1949759812ad403a06e9ae41ef6c52d2 = L.circle(
+                [37.50154656874925, 127.02640018548142],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_bfa1c0172ebfae24a53fbf184175a679 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_62256bc9df775eaf110994d46569d064 = $(`<div id="html_62256bc9df775eaf110994d46569d064" style="width: 100.0%; height: 100.0%;">서울 강남구 역삼동 814-6</div>`)[0];
+            popup_bfa1c0172ebfae24a53fbf184175a679.setContent(html_62256bc9df775eaf110994d46569d064);
+        
+
+        circle_1949759812ad403a06e9ae41ef6c52d2.bindPopup(popup_bfa1c0172ebfae24a53fbf184175a679)
+        ;
+
+        
+    
+    
+            circle_1949759812ad403a06e9ae41ef6c52d2.bindTooltip(
+                `<div>
+                     알라딘중고서점 강남점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_57cef9d5553656eaead758cba20dff35 = L.circle(
+                [37.54901373770552, 126.91414276152327],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_c6c01fd205554d0a074123bb8e04bc28 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_d107f7825092bce2cb4f943755f4d517 = $(`<div id="html_d107f7825092bce2cb4f943755f4d517" style="width: 100.0%; height: 100.0%;">서울 마포구 합정동 414-3</div>`)[0];
+            popup_c6c01fd205554d0a074123bb8e04bc28.setContent(html_d107f7825092bce2cb4f943755f4d517);
+        
+
+        circle_57cef9d5553656eaead758cba20dff35.bindPopup(popup_c6c01fd205554d0a074123bb8e04bc28)
+        ;
+
+        
+    
+    
+            circle_57cef9d5553656eaead758cba20dff35.bindTooltip(
+                `<div>
+                     알라딘중고서점 합정점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a113e4f44f6ce24bf85943b932e9b658 = L.circle(
+                [37.517612561686285, 126.90649816383888],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_a467a03595457f4b0352faea8f3f4cf8 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_7aa0782b08856cefca721cb8ea3fa8b6 = $(`<div id="html_7aa0782b08856cefca721cb8ea3fa8b6" style="width: 100.0%; height: 100.0%;">서울 영등포구 영등포동3가 9-13</div>`)[0];
+            popup_a467a03595457f4b0352faea8f3f4cf8.setContent(html_7aa0782b08856cefca721cb8ea3fa8b6);
+        
+
+        circle_a113e4f44f6ce24bf85943b932e9b658.bindPopup(popup_a467a03595457f4b0352faea8f3f4cf8)
+        ;
+
+        
+    
+    
+            circle_a113e4f44f6ce24bf85943b932e9b658.bindTooltip(
+                `<div>
+                     알라딘중고서점 영등포점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_96c1d72e70e03ae109ac3375d260d5e1 = L.circle(
+                [37.5826890394332, 126.998827096907],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_fb3bc80fdf53200a800efaae687f130b = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_5e9fe928f349ef90ca270f15063b34eb = $(`<div id="html_5e9fe928f349ef90ca270f15063b34eb" style="width: 100.0%; height: 100.0%;">서울 종로구 명륜4가 187</div>`)[0];
+            popup_fb3bc80fdf53200a800efaae687f130b.setContent(html_5e9fe928f349ef90ca270f15063b34eb);
+        
+
+        circle_96c1d72e70e03ae109ac3375d260d5e1.bindPopup(popup_fb3bc80fdf53200a800efaae687f130b)
+        ;
+
+        
+    
+    
+            circle_96c1d72e70e03ae109ac3375d260d5e1.bindTooltip(
+                `<div>
+                     알라딘중고서점 대학로점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f580c0505cf636c06b5899524b261c06 = L.circle(
+                [37.4824229997248, 126.930131516226],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_0afdafdfad4e2901d8062c797599a713 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_3206a559fb9eee2cb66a64e769607dc5 = $(`<div id="html_3206a559fb9eee2cb66a64e769607dc5" style="width: 100.0%; height: 100.0%;">서울 관악구 신림동 1641-16</div>`)[0];
+            popup_0afdafdfad4e2901d8062c797599a713.setContent(html_3206a559fb9eee2cb66a64e769607dc5);
+        
+
+        circle_f580c0505cf636c06b5899524b261c06.bindPopup(popup_0afdafdfad4e2901d8062c797599a713)
+        ;
+
+        
+    
+    
+            circle_f580c0505cf636c06b5899524b261c06.bindTooltip(
+                `<div>
+                     알라딘중고서점 신림점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_95f51978068e8f60ec4814da7024963c = L.circle(
+                [37.5410922495586, 127.070769568006],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_8ddd72206f013579573626f1483ee13c = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_2c4a88b0d8a40d127f3aa45a471b56f8 = $(`<div id="html_2c4a88b0d8a40d127f3aa45a471b56f8" style="width: 100.0%; height: 100.0%;">서울 광진구 화양동 5-104</div>`)[0];
+            popup_8ddd72206f013579573626f1483ee13c.setContent(html_2c4a88b0d8a40d127f3aa45a471b56f8);
+        
+
+        circle_95f51978068e8f60ec4814da7024963c.bindPopup(popup_8ddd72206f013579573626f1483ee13c)
+        ;
+
+        
+    
+    
+            circle_95f51978068e8f60ec4814da7024963c.bindTooltip(
+                `<div>
+                     알라딘중고서점 건대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_154aa1afa6b2d3bdae9d74e83924c9e4 = L.circle(
+                [37.5183915623156, 127.022989974349],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_02733a291e22fe57984af7b3a83cb9be = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_cf640758bfb54632642013dd4080f825 = $(`<div id="html_cf640758bfb54632642013dd4080f825" style="width: 100.0%; height: 100.0%;">서울 강남구 신사동 536-8</div>`)[0];
+            popup_02733a291e22fe57984af7b3a83cb9be.setContent(html_cf640758bfb54632642013dd4080f825);
+        
+
+        circle_154aa1afa6b2d3bdae9d74e83924c9e4.bindPopup(popup_02733a291e22fe57984af7b3a83cb9be)
+        ;
+
+        
+    
+    
+            circle_154aa1afa6b2d3bdae9d74e83924c9e4.bindTooltip(
+                `<div>
+                     알라딘중고서점 가로수길점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dbdeac45679bbf77d2c1699b1c19c2a4 = L.circle(
+                [37.5576063840726, 126.936698053885],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_34a0884700f50aea3af3c5fdd3f27653 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_1e02435ef3f64e14b7e498996a80d321 = $(`<div id="html_1e02435ef3f64e14b7e498996a80d321" style="width: 100.0%; height: 100.0%;">서울 서대문구 창천동 31-39</div>`)[0];
+            popup_34a0884700f50aea3af3c5fdd3f27653.setContent(html_1e02435ef3f64e14b7e498996a80d321);
+        
+
+        circle_dbdeac45679bbf77d2c1699b1c19c2a4.bindPopup(popup_34a0884700f50aea3af3c5fdd3f27653)
+        ;
+
+        
+    
+    
+            circle_dbdeac45679bbf77d2c1699b1c19c2a4.bindTooltip(
+                `<div>
+                     알라딘중고서점 신촌점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dc96ab0e115497c85b900ed88a7f9ae2 = L.circle(
+                [37.65924158857138, 126.77000677234157],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_1f37e1c65d53059877a6f62430e3a8c4 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_a2a7c055bf0287d2a13f321b07612182 = $(`<div id="html_a2a7c055bf0287d2a13f321b07612182" style="width: 100.0%; height: 100.0%;">경기 고양시 일산동구 장항동 769-2</div>`)[0];
+            popup_1f37e1c65d53059877a6f62430e3a8c4.setContent(html_a2a7c055bf0287d2a13f321b07612182);
+        
+
+        circle_dc96ab0e115497c85b900ed88a7f9ae2.bindPopup(popup_1f37e1c65d53059877a6f62430e3a8c4)
+        ;
+
+        
+    
+    
+            circle_dc96ab0e115497c85b900ed88a7f9ae2.bindTooltip(
+                `<div>
+                     알라딘중고서점 일산점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7095298362e819b57d17c99d5091591d = L.circle(
+                [37.6174148915539, 126.919920084796],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_3cd5f3fa08d114dd6974cc2fbc24d77c = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_3c339a4d0161805917fcb91ebeba6c9b = $(`<div id="html_3c339a4d0161805917fcb91ebeba6c9b" style="width: 100.0%; height: 100.0%;">서울 은평구 대조동 198-27</div>`)[0];
+            popup_3cd5f3fa08d114dd6974cc2fbc24d77c.setContent(html_3c339a4d0161805917fcb91ebeba6c9b);
+        
+
+        circle_7095298362e819b57d17c99d5091591d.bindPopup(popup_3cd5f3fa08d114dd6974cc2fbc24d77c)
+        ;
+
+        
+    
+    
+            circle_7095298362e819b57d17c99d5091591d.bindTooltip(
+                `<div>
+                     알라딘중고서점 연신내점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f2b699e081450c209d0d5d43097a6dd8 = L.circle(
+                [37.4843714568171, 126.783379131297],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_0d2a22f0a633e4c5ca39c0b4f14fa7c0 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_1485d214892fde658bdec5d2427be8de = $(`<div id="html_1485d214892fde658bdec5d2427be8de" style="width: 100.0%; height: 100.0%;">경기 부천시 심곡동 172-15</div>`)[0];
+            popup_0d2a22f0a633e4c5ca39c0b4f14fa7c0.setContent(html_1485d214892fde658bdec5d2427be8de);
+        
+
+        circle_f2b699e081450c209d0d5d43097a6dd8.bindPopup(popup_0d2a22f0a633e4c5ca39c0b4f14fa7c0)
+        ;
+
+        
+    
+    
+            circle_f2b699e081450c209d0d5d43097a6dd8.bindTooltip(
+                `<div>
+                     알라딘중고서점 부천점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_109b8f41e23f9f5c22590d192c13eab5 = L.circle(
+                [37.2023185172048, 127.068974152244],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_0802e99e06aeda736325e494ea0a3600 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_b55ee243b8e895442cdc4bb0c965fafa = $(`<div id="html_b55ee243b8e895442cdc4bb0c965fafa" style="width: 100.0%; height: 100.0%;">경기 화성시 반송동 98</div>`)[0];
+            popup_0802e99e06aeda736325e494ea0a3600.setContent(html_b55ee243b8e895442cdc4bb0c965fafa);
+        
+
+        circle_109b8f41e23f9f5c22590d192c13eab5.bindPopup(popup_0802e99e06aeda736325e494ea0a3600)
+        ;
+
+        
+    
+    
+            circle_109b8f41e23f9f5c22590d192c13eab5.bindTooltip(
+                `<div>
+                     알라딘중고서점 동탄점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d758d9d8e8e9c4e69f6782b4c5bf2d66 = L.circle(
+                [37.36008696879688, 126.93113231733928],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_dd3a39376bb1369877f7e3d18c72e39d = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_a5f860265fef978037d062bd1c9113f3 = $(`<div id="html_a5f860265fef978037d062bd1c9113f3" style="width: 100.0%; height: 100.0%;">경기 군포시 산본동 1136</div>`)[0];
+            popup_dd3a39376bb1369877f7e3d18c72e39d.setContent(html_a5f860265fef978037d062bd1c9113f3);
+        
+
+        circle_d758d9d8e8e9c4e69f6782b4c5bf2d66.bindPopup(popup_dd3a39376bb1369877f7e3d18c72e39d)
+        ;
+
+        
+    
+    
+            circle_d758d9d8e8e9c4e69f6782b4c5bf2d66.bindTooltip(
+                `<div>
+                     알라딘중고서점 산본점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3e858df47ac7483f7248e8af83ddf091 = L.circle(
+                [37.6379888903912, 127.026045045605],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_50381b8a261cd9251e6db47a7a7521ec = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_133305126c7dca6078c1bc1588abc799 = $(`<div id="html_133305126c7dca6078c1bc1588abc799" style="width: 100.0%; height: 100.0%;">서울 강북구 번동 418-18</div>`)[0];
+            popup_50381b8a261cd9251e6db47a7a7521ec.setContent(html_133305126c7dca6078c1bc1588abc799);
+        
+
+        circle_3e858df47ac7483f7248e8af83ddf091.bindPopup(popup_50381b8a261cd9251e6db47a7a7521ec)
+        ;
+
+        
+    
+    
+            circle_3e858df47ac7483f7248e8af83ddf091.bindTooltip(
+                `<div>
+                     알라딘중고서점 수유점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8fae490fea4d14e7645f8d9214f9d41a = L.circle(
+                [37.26597591490386, 127.00135286463203],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_fc752a6f4676716ebda23c74fb169aba = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_3662b60a3d173fc70ae99f6f8343cdd3 = $(`<div id="html_3662b60a3d173fc70ae99f6f8343cdd3" style="width: 100.0%; height: 100.0%;">경기 수원시 팔달구 매산로1가 57-69</div>`)[0];
+            popup_fc752a6f4676716ebda23c74fb169aba.setContent(html_3662b60a3d173fc70ae99f6f8343cdd3);
+        
+
+        circle_8fae490fea4d14e7645f8d9214f9d41a.bindPopup(popup_fc752a6f4676716ebda23c74fb169aba)
+        ;
+
+        
+    
+    
+            circle_8fae490fea4d14e7645f8d9214f9d41a.bindTooltip(
+                `<div>
+                     알라딘중고서점 수원점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1ecf0d56256b8fbe3c09ce4bf301f42e = L.circle(
+                [35.1554938667339, 129.059585976992],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_d1605b3cb2db90511e5e73a6f63e62ae = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_dad0630f69dfa3120ad1577d3a9410bf = $(`<div id="html_dad0630f69dfa3120ad1577d3a9410bf" style="width: 100.0%; height: 100.0%;">부산 부산진구 부전동 165-2</div>`)[0];
+            popup_d1605b3cb2db90511e5e73a6f63e62ae.setContent(html_dad0630f69dfa3120ad1577d3a9410bf);
+        
+
+        circle_1ecf0d56256b8fbe3c09ce4bf301f42e.bindPopup(popup_d1605b3cb2db90511e5e73a6f63e62ae)
+        ;
+
+        
+    
+    
+            circle_1ecf0d56256b8fbe3c09ce4bf301f42e.bindTooltip(
+                `<div>
+                     알라딘중고서점 부산서면점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cc73edf3dee5773e669fe52ccc7de16d = L.circle(
+                [37.65476722858096, 127.06002088370848],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_947593ca6564aa2daee264d06f76cf35 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_0d9da51b84b75ca223a54e551441795f = $(`<div id="html_0d9da51b84b75ca223a54e551441795f" style="width: 100.0%; height: 100.0%;">서울 노원구 상계동 712</div>`)[0];
+            popup_947593ca6564aa2daee264d06f76cf35.setContent(html_0d9da51b84b75ca223a54e551441795f);
+        
+
+        circle_cc73edf3dee5773e669fe52ccc7de16d.bindPopup(popup_947593ca6564aa2daee264d06f76cf35)
+        ;
+
+        
+    
+    
+            circle_cc73edf3dee5773e669fe52ccc7de16d.bindTooltip(
+                `<div>
+                     알라딘중고서점 노원역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7eb6a8dfd125ed7e4f006adb41a30fd2 = L.circle(
+                [35.1481966157082, 126.917729043091],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_cebfc5753b3c67c1229d261f4c522908 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_cf548e8562b96b4857465bab8e555993 = $(`<div id="html_cf548e8562b96b4857465bab8e555993" style="width: 100.0%; height: 100.0%;">광주 동구 금남로2가 34</div>`)[0];
+            popup_cebfc5753b3c67c1229d261f4c522908.setContent(html_cf548e8562b96b4857465bab8e555993);
+        
+
+        circle_7eb6a8dfd125ed7e4f006adb41a30fd2.bindPopup(popup_cebfc5753b3c67c1229d261f4c522908)
+        ;
+
+        
+    
+    
+            circle_7eb6a8dfd125ed7e4f006adb41a30fd2.bindTooltip(
+                `<div>
+                     알라딘중고서점 광주충장로점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5428b5cf4e08998fd3825d03d8ee4bed = L.circle(
+                [37.4442007096131, 126.702176395527],
+                {"bubblingMouseEvents": true, "color": "#7C83FD", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7C83FD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_8499af30da85b9acd41f26ebc1c01ddb = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_80ef0c2f5d0bf6ca53779524de3ffde6 = $(`<div id="html_80ef0c2f5d0bf6ca53779524de3ffde6" style="width: 100.0%; height: 100.0%;">인천 남동구 구월동 1472</div>`)[0];
+            popup_8499af30da85b9acd41f26ebc1c01ddb.setContent(html_80ef0c2f5d0bf6ca53779524de3ffde6);
+        
+
+        circle_5428b5cf4e08998fd3825d03d8ee4bed.bindPopup(popup_8499af30da85b9acd41f26ebc1c01ddb)
+        ;
+
+        
+    
+    
+            circle_5428b5cf4e08998fd3825d03d8ee4bed.bindTooltip(
+                `<div>
+                     알라딘중고서점 인천구월점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_495fe40eb227083f6026286d99f9efb2 = L.circle(
+                [37.5707974563789, 126.977908555263],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_d39dc5dbe4ff5e13ddfb1f45923e45db = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_afc581d5fd374e5122db2d08120f46ea = $(`<div id="html_afc581d5fd374e5122db2d08120f46ea" style="width: 100.0%; height: 100.0%;">서울 종로구 세종로 119</div>`)[0];
+            popup_d39dc5dbe4ff5e13ddfb1f45923e45db.setContent(html_afc581d5fd374e5122db2d08120f46ea);
+        
+
+        circle_495fe40eb227083f6026286d99f9efb2.bindPopup(popup_d39dc5dbe4ff5e13ddfb1f45923e45db)
+        ;
+
+        
+    
+    
+            circle_495fe40eb227083f6026286d99f9efb2.bindTooltip(
+                `<div>
+                     교보문고 광화문점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ab3e7ac42019928e366394b9c94aaa67 = L.circle(
+                [37.5040113066451, 127.024121044656],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_9376ba59f7ecc50f173d7efb26e21eda = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_60c565b257a71c40ab3ffb7320859acb = $(`<div id="html_60c565b257a71c40ab3ffb7320859acb" style="width: 100.0%; height: 100.0%;">서울 서초구 서초동 1303-22</div>`)[0];
+            popup_9376ba59f7ecc50f173d7efb26e21eda.setContent(html_60c565b257a71c40ab3ffb7320859acb);
+        
+
+        circle_ab3e7ac42019928e366394b9c94aaa67.bindPopup(popup_9376ba59f7ecc50f173d7efb26e21eda)
+        ;
+
+        
+    
+    
+            circle_ab3e7ac42019928e366394b9c94aaa67.bindTooltip(
+                `<div>
+                     교보문고 강남점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_18d96e23edf2b6373d52f713db17a4f2 = L.circle(
+                [37.5510324090502, 126.91228338125131],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_140697b4dd2e8023afc55c2955aafe76 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_e68da77a305304de91cebdb14f54d1eb = $(`<div id="html_e68da77a305304de91cebdb14f54d1eb" style="width: 100.0%; height: 100.0%;">서울 마포구 합정동 473</div>`)[0];
+            popup_140697b4dd2e8023afc55c2955aafe76.setContent(html_e68da77a305304de91cebdb14f54d1eb);
+        
+
+        circle_18d96e23edf2b6373d52f713db17a4f2.bindPopup(popup_140697b4dd2e8023afc55c2955aafe76)
+        ;
+
+        
+    
+    
+            circle_18d96e23edf2b6373d52f713db17a4f2.bindTooltip(
+                `<div>
+                     교보문고 합정점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_50135780a012761fb4a8cd58f1072cc7 = L.circle(
+                [35.1516736788129, 129.05954233375],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_3e6fb56bce6f746c1606d47222f7a640 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_9e1bebff2b4ee8f31c29a3fd871d5bde = $(`<div id="html_9e1bebff2b4ee8f31c29a3fd871d5bde" style="width: 100.0%; height: 100.0%;">부산 부산진구 부전동 536-3</div>`)[0];
+            popup_3e6fb56bce6f746c1606d47222f7a640.setContent(html_9e1bebff2b4ee8f31c29a3fd871d5bde);
+        
+
+        circle_50135780a012761fb4a8cd58f1072cc7.bindPopup(popup_3e6fb56bce6f746c1606d47222f7a640)
+        ;
+
+        
+    
+    
+            circle_50135780a012761fb4a8cd58f1072cc7.bindTooltip(
+                `<div>
+                     교보문고 부산점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b679e24238033f298bf2c59baefabe03 = L.circle(
+                [36.3526462691852, 127.37963138237],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_6f66118bc90882028e64a97469b551a3 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_d46e0f2420c828f33bb4939f6a251f4f = $(`<div id="html_d46e0f2420c828f33bb4939f6a251f4f" style="width: 100.0%; height: 100.0%;">대전 서구 둔산동 1362</div>`)[0];
+            popup_6f66118bc90882028e64a97469b551a3.setContent(html_d46e0f2420c828f33bb4939f6a251f4f);
+        
+
+        circle_b679e24238033f298bf2c59baefabe03.bindPopup(popup_6f66118bc90882028e64a97469b551a3)
+        ;
+
+        
+    
+    
+            circle_b679e24238033f298bf2c59baefabe03.bindTooltip(
+                `<div>
+                     교보문고 대전점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_08791deae2b01d44e5c5c9c5110da0b6 = L.circle(
+                [37.51428624744193, 127.10093361202414],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_458298dc707d6f0f0239d79eaa79117f = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_e1da06f54b70e2677039a2812c999898 = $(`<div id="html_e1da06f54b70e2677039a2812c999898" style="width: 100.0%; height: 100.0%;">서울 송파구 신천동 7-18</div>`)[0];
+            popup_458298dc707d6f0f0239d79eaa79117f.setContent(html_e1da06f54b70e2677039a2812c999898);
+        
+
+        circle_08791deae2b01d44e5c5c9c5110da0b6.bindPopup(popup_458298dc707d6f0f0239d79eaa79117f)
+        ;
+
+        
+    
+    
+            circle_08791deae2b01d44e5c5c9c5110da0b6.bindTooltip(
+                `<div>
+                     교보문고 잠실점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b4b032920470f65a07206c0220745e24 = L.circle(
+                [37.28708040474, 127.057774424832],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_e87647623becf65996a6dc9f8c134c44 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_61fa6984918dc20f03ac9f2c66955e18 = $(`<div id="html_61fa6984918dc20f03ac9f2c66955e18" style="width: 100.0%; height: 100.0%;">경기 수원시 영통구 이의동 1336-1</div>`)[0];
+            popup_e87647623becf65996a6dc9f8c134c44.setContent(html_61fa6984918dc20f03ac9f2c66955e18);
+        
+
+        circle_b4b032920470f65a07206c0220745e24.bindPopup(popup_e87647623becf65996a6dc9f8c134c44)
+        ;
+
+        
+    
+    
+            circle_b4b032920470f65a07206c0220745e24.bindTooltip(
+                `<div>
+                     교보문고 광교점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c234c06220bda4cb0069a90987569a5d = L.circle(
+                [35.87047814398864, 128.5948366421693],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_be31f2a982601a9e17b7e20f4146b009 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_47b225169f0011899eab755f562f6c5f = $(`<div id="html_47b225169f0011899eab755f562f6c5f" style="width: 100.0%; height: 100.0%;">대구 중구 동성로2가 88-25</div>`)[0];
+            popup_be31f2a982601a9e17b7e20f4146b009.setContent(html_47b225169f0011899eab755f562f6c5f);
+        
+
+        circle_c234c06220bda4cb0069a90987569a5d.bindPopup(popup_be31f2a982601a9e17b7e20f4146b009)
+        ;
+
+        
+    
+    
+            circle_c234c06220bda4cb0069a90987569a5d.bindTooltip(
+                `<div>
+                     교보문고 대구점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_241489f25d5350d212e1ae099b7d6971 = L.circle(
+                [37.643548713728, 126.78953484741],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_aa4a7ef5b98596b82d5d7ea07b6ef261 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_e0a19ef4358fe9deebf31381d3aff544 = $(`<div id="html_e0a19ef4358fe9deebf31381d3aff544" style="width: 100.0%; height: 100.0%;">경기 고양시 일산동구 백석동 1242</div>`)[0];
+            popup_aa4a7ef5b98596b82d5d7ea07b6ef261.setContent(html_e0a19ef4358fe9deebf31381d3aff544);
+        
+
+        circle_241489f25d5350d212e1ae099b7d6971.bindPopup(popup_aa4a7ef5b98596b82d5d7ea07b6ef261)
+        ;
+
+        
+    
+    
+            circle_241489f25d5350d212e1ae099b7d6971.bindTooltip(
+                `<div>
+                     교보문고 일산점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_daf7b6650c2ba55578544ae7afeced88 = L.circle(
+                [37.540605199583034, 127.12472284062106],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_fc88c28d575fec032652b2c182637986 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_c3a5704be7c46921c70cc3d8ba78bf7b = $(`<div id="html_c3a5704be7c46921c70cc3d8ba78bf7b" style="width: 100.0%; height: 100.0%;">서울 강동구 천호동 425-5</div>`)[0];
+            popup_fc88c28d575fec032652b2c182637986.setContent(html_c3a5704be7c46921c70cc3d8ba78bf7b);
+        
+
+        circle_daf7b6650c2ba55578544ae7afeced88.bindPopup(popup_fc88c28d575fec032652b2c182637986)
+        ;
+
+        
+    
+    
+            circle_daf7b6650c2ba55578544ae7afeced88.bindTooltip(
+                `<div>
+                     교보문고 천호점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e1cb110b9f06b26ab911658fddf0d8a5 = L.circle(
+                [37.446154627681636, 126.70095720330998],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_83feb50b5222cf96eef41e552b825c52 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_bb1808aac4878f5cbc1fc57ffd93f5de = $(`<div id="html_bb1808aac4878f5cbc1fc57ffd93f5de" style="width: 100.0%; height: 100.0%;">인천 남동구 구월동 1456</div>`)[0];
+            popup_83feb50b5222cf96eef41e552b825c52.setContent(html_bb1808aac4878f5cbc1fc57ffd93f5de);
+        
+
+        circle_e1cb110b9f06b26ab911658fddf0d8a5.bindPopup(popup_83feb50b5222cf96eef41e552b825c52)
+        ;
+
+        
+    
+    
+            circle_e1cb110b9f06b26ab911658fddf0d8a5.bindTooltip(
+                `<div>
+                     교보문고 인천점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_82af4f32400c927173026310d8a665f4 = L.circle(
+                [37.56887836495422, 127.00746625495361],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_e3f99dc5748260ab73fb35e7a98dac01 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_9ce4e954c411502c53384109e0c46b75 = $(`<div id="html_9ce4e954c411502c53384109e0c46b75" style="width: 100.0%; height: 100.0%;">서울 중구 을지로6가 17-2</div>`)[0];
+            popup_e3f99dc5748260ab73fb35e7a98dac01.setContent(html_9ce4e954c411502c53384109e0c46b75);
+        
+
+        circle_82af4f32400c927173026310d8a665f4.bindPopup(popup_e3f99dc5748260ab73fb35e7a98dac01)
+        ;
+
+        
+    
+    
+            circle_82af4f32400c927173026310d8a665f4.bindTooltip(
+                `<div>
+                     교보문고 동대문바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dceaa783c8f909e91f1314bd8d05aa3b = L.circle(
+                [35.15210803262867, 126.84889641781955],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_8968b39b0e8e881a288ec2a1039edc6b = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_4b46d0b28cee42091456938e533efb88 = $(`<div id="html_4b46d0b28cee42091456938e533efb88" style="width: 100.0%; height: 100.0%;">광주 서구 치평동 1236-3</div>`)[0];
+            popup_8968b39b0e8e881a288ec2a1039edc6b.setContent(html_4b46d0b28cee42091456938e533efb88);
+        
+
+        circle_dceaa783c8f909e91f1314bd8d05aa3b.bindPopup(popup_8968b39b0e8e881a288ec2a1039edc6b)
+        ;
+
+        
+    
+    
+            circle_dceaa783c8f909e91f1314bd8d05aa3b.bindTooltip(
+                `<div>
+                     교보문고 광주상무센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e9b4e06275d81112fe4d372a84958f28 = L.circle(
+                [35.2235343165836, 128.680820605238],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_7799508b5f8d1a8a95266631136c019a = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_0bfd2a7b570f34ff13d85abcd319d2e9 = $(`<div id="html_0bfd2a7b570f34ff13d85abcd319d2e9" style="width: 100.0%; height: 100.0%;">경남 창원시 성산구 상남동 78-3</div>`)[0];
+            popup_7799508b5f8d1a8a95266631136c019a.setContent(html_0bfd2a7b570f34ff13d85abcd319d2e9);
+        
+
+        circle_e9b4e06275d81112fe4d372a84958f28.bindPopup(popup_7799508b5f8d1a8a95266631136c019a)
+        ;
+
+        
+    
+    
+            circle_e9b4e06275d81112fe4d372a84958f28.bindTooltip(
+                `<div>
+                     교보문고 창원점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b22413d8088fca60df1bf0272ff28abd = L.circle(
+                [37.3834124445897, 127.122624902804],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_152d67938614326df61a3788f9bd01bb = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_0339c7a473abf924377fef0d26e2ab7d = $(`<div id="html_0339c7a473abf924377fef0d26e2ab7d" style="width: 100.0%; height: 100.0%;">경기 성남시 분당구 서현동 265-4</div>`)[0];
+            popup_152d67938614326df61a3788f9bd01bb.setContent(html_0339c7a473abf924377fef0d26e2ab7d);
+        
+
+        circle_b22413d8088fca60df1bf0272ff28abd.bindPopup(popup_152d67938614326df61a3788f9bd01bb)
+        ;
+
+        
+    
+    
+            circle_b22413d8088fca60df1bf0272ff28abd.bindTooltip(
+                `<div>
+                     교보문고 분당점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4f18282f5dc3bf60c42351d7c722e236 = L.circle(
+                [37.5169734028965, 126.902720913986],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_7f69c47eef65ddc977ae94d5156f5ddf = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_e669554230315f8e88c7b19a42d2e363 = $(`<div id="html_e669554230315f8e88c7b19a42d2e363" style="width: 100.0%; height: 100.0%;">서울 영등포구 영등포동4가 442</div>`)[0];
+            popup_7f69c47eef65ddc977ae94d5156f5ddf.setContent(html_e669554230315f8e88c7b19a42d2e363);
+        
+
+        circle_4f18282f5dc3bf60c42351d7c722e236.bindPopup(popup_7f69c47eef65ddc977ae94d5156f5ddf)
+        ;
+
+        
+    
+    
+            circle_4f18282f5dc3bf60c42351d7c722e236.bindTooltip(
+                `<div>
+                     교보문고 영등포점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dd3732d7c023fbda6ce4dcecf9e2f63f = L.circle(
+                [37.52799896377168, 126.87495536206144],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_09fdd2e7a08dc116f3a578c6e692ed7c = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_4f27172b4b11e26f9efea81ef74b0ce6 = $(`<div id="html_4f27172b4b11e26f9efea81ef74b0ce6" style="width: 100.0%; height: 100.0%;">서울 양천구 목동 917-1</div>`)[0];
+            popup_09fdd2e7a08dc116f3a578c6e692ed7c.setContent(html_4f27172b4b11e26f9efea81ef74b0ce6);
+        
+
+        circle_dd3732d7c023fbda6ce4dcecf9e2f63f.bindPopup(popup_09fdd2e7a08dc116f3a578c6e692ed7c)
+        ;
+
+        
+    
+    
+            circle_dd3732d7c023fbda6ce4dcecf9e2f63f.bindTooltip(
+                `<div>
+                     교보문고 목동점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aeade52adf13c38cc2d256c1c7283fa8 = L.circle(
+                [37.6383131328318, 127.026548206045],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_90b9d939a280647789985b2b74f00e86 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_6bb2c834c6762a3834b96d2f92b53d09 = $(`<div id="html_6bb2c834c6762a3834b96d2f92b53d09" style="width: 100.0%; height: 100.0%;">서울 강북구 번동 418-6</div>`)[0];
+            popup_90b9d939a280647789985b2b74f00e86.setContent(html_6bb2c834c6762a3834b96d2f92b53d09);
+        
+
+        circle_aeade52adf13c38cc2d256c1c7283fa8.bindPopup(popup_90b9d939a280647789985b2b74f00e86)
+        ;
+
+        
+    
+    
+            circle_aeade52adf13c38cc2d256c1c7283fa8.bindTooltip(
+                `<div>
+                     교보문고 수유바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2bb20122e31b02e6409fe319d5f8dedb = L.circle(
+                [37.2921412280667, 127.048417742304],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_2ac40ed7a56203632fbd840f73358839 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_db4ab0d40a89bfbd16a1a26eadbcb7c6 = $(`<div id="html_db4ab0d40a89bfbd16a1a26eadbcb7c6" style="width: 100.0%; height: 100.0%;">경기 수원시 영통구 이의동 1331</div>`)[0];
+            popup_2ac40ed7a56203632fbd840f73358839.setContent(html_db4ab0d40a89bfbd16a1a26eadbcb7c6);
+        
+
+        circle_2bb20122e31b02e6409fe319d5f8dedb.bindPopup(popup_2ac40ed7a56203632fbd840f73358839)
+        ;
+
+        
+    
+    
+            circle_2bb20122e31b02e6409fe319d5f8dedb.bindTooltip(
+                `<div>
+                     교보문고 광교월드스퀘어센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_988ef00f09d96d7162137dac5ed784a9 = L.circle(
+                [36.4963395145428, 127.262830428102],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_732cef3998506cf34e7b27a2a2b45477 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_e50bd7c0756e952ad3747112278b7ef2 = $(`<div id="html_e50bd7c0756e952ad3747112278b7ef2" style="width: 100.0%; height: 100.0%;">세종특별자치시 어진동 669</div>`)[0];
+            popup_732cef3998506cf34e7b27a2a2b45477.setContent(html_e50bd7c0756e952ad3747112278b7ef2);
+        
+
+        circle_988ef00f09d96d7162137dac5ed784a9.bindPopup(popup_732cef3998506cf34e7b27a2a2b45477)
+        ;
+
+        
+    
+    
+            circle_988ef00f09d96d7162137dac5ed784a9.bindTooltip(
+                `<div>
+                     교보문고 세종바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_92f9e7260c28f3b939be891cac853810 = L.circle(
+                [37.5806966564292, 127.049079477084],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_fb7d7ac5d06da6c492a5f3b4153740f5 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_704666614eb91e23f6cf56402e1dd4ca = $(`<div id="html_704666614eb91e23f6cf56402e1dd4ca" style="width: 100.0%; height: 100.0%;">서울 동대문구 전농동 591-53</div>`)[0];
+            popup_fb7d7ac5d06da6c492a5f3b4153740f5.setContent(html_704666614eb91e23f6cf56402e1dd4ca);
+        
+
+        circle_92f9e7260c28f3b939be891cac853810.bindPopup(popup_fb7d7ac5d06da6c492a5f3b4153740f5)
+        ;
+
+        
+    
+    
+            circle_92f9e7260c28f3b939be891cac853810.bindTooltip(
+                `<div>
+                     교보문고 청량리바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fcc22691129ba5d91bd2c3d4b5979dcc = L.circle(
+                [37.3902269308188, 126.950480342121],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_546d932b2e0516ff79a6b302b18e99bf = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_3a7d9d18aab1b39b909be4d27f7191bf = $(`<div id="html_3a7d9d18aab1b39b909be4d27f7191bf" style="width: 100.0%; height: 100.0%;">경기 안양시 동안구 호계동 1039</div>`)[0];
+            popup_546d932b2e0516ff79a6b302b18e99bf.setContent(html_3a7d9d18aab1b39b909be4d27f7191bf);
+        
+
+        circle_fcc22691129ba5d91bd2c3d4b5979dcc.bindPopup(popup_546d932b2e0516ff79a6b302b18e99bf)
+        ;
+
+        
+    
+    
+            circle_fcc22691129ba5d91bd2c3d4b5979dcc.bindTooltip(
+                `<div>
+                     교보문고 평촌점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c9d398ac3056e90e2a9efc2ae4c27b20 = L.circle(
+                [35.1374629142224, 129.10153484218125],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_45823761701921150bbc3bb193582327 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_131377f2b41be7f32338189895f3c6a0 = $(`<div id="html_131377f2b41be7f32338189895f3c6a0" style="width: 100.0%; height: 100.0%;">부산 남구 대연동 54-5</div>`)[0];
+            popup_45823761701921150bbc3bb193582327.setContent(html_131377f2b41be7f32338189895f3c6a0);
+        
+
+        circle_c9d398ac3056e90e2a9efc2ae4c27b20.bindPopup(popup_45823761701921150bbc3bb193582327)
+        ;
+
+        
+    
+    
+            circle_c9d398ac3056e90e2a9efc2ae4c27b20.bindTooltip(
+                `<div>
+                     교보문고 경성대부경대센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6f524637d3572bbedd591b6277095ba4 = L.circle(
+                [35.1702367288963, 129.131042600366],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_128e3cbd3a36e051c35cfff9a5e30bf2 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_008818e89e5daa9e0cbfa4916da45deb = $(`<div id="html_008818e89e5daa9e0cbfa4916da45deb" style="width: 100.0%; height: 100.0%;">부산 해운대구 우동 1496</div>`)[0];
+            popup_128e3cbd3a36e051c35cfff9a5e30bf2.setContent(html_008818e89e5daa9e0cbfa4916da45deb);
+        
+
+        circle_6f524637d3572bbedd591b6277095ba4.bindPopup(popup_128e3cbd3a36e051c35cfff9a5e30bf2)
+        ;
+
+        
+    
+    
+            circle_6f524637d3572bbedd591b6277095ba4.bindTooltip(
+                `<div>
+                     교보문고 센텀시티점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_816b4b92a15588e022ed7eebe7f7fc7d = L.circle(
+                [37.4839600771335, 126.783095394642],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_287f8ae71983a92dd258acc0874d2f8d = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_b8a59d4cc7b589ab3dbded4e088f6841 = $(`<div id="html_b8a59d4cc7b589ab3dbded4e088f6841" style="width: 100.0%; height: 100.0%;">경기 부천시 심곡본동 316-2</div>`)[0];
+            popup_287f8ae71983a92dd258acc0874d2f8d.setContent(html_b8a59d4cc7b589ab3dbded4e088f6841);
+        
+
+        circle_816b4b92a15588e022ed7eebe7f7fc7d.bindPopup(popup_287f8ae71983a92dd258acc0874d2f8d)
+        ;
+
+        
+    
+    
+            circle_816b4b92a15588e022ed7eebe7f7fc7d.bindTooltip(
+                `<div>
+                     교보문고 부천점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6ccc3c850067683074be8a619f570235 = L.circle(
+                [37.4772172323389, 127.124360783653],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_b9f3e29bac984f586640cf06bf0e9c84 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_ef9b8f11b7bbbda275e4e97ea9bcab6b = $(`<div id="html_ef9b8f11b7bbbda275e4e97ea9bcab6b" style="width: 100.0%; height: 100.0%;">서울 송파구 문정동 634</div>`)[0];
+            popup_b9f3e29bac984f586640cf06bf0e9c84.setContent(html_ef9b8f11b7bbbda275e4e97ea9bcab6b);
+        
+
+        circle_6ccc3c850067683074be8a619f570235.bindPopup(popup_b9f3e29bac984f586640cf06bf0e9c84)
+        ;
+
+        
+    
+    
+            circle_6ccc3c850067683074be8a619f570235.bindTooltip(
+                `<div>
+                     교보문고 가든파이브바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d44d0183ab8edf6a3ce8b9ade38d3901 = L.circle(
+                [37.3823124140169, 126.658439774959],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_a47f8f0a93641cf15d86495d9e0ab683 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_6e0d7c6e7de3d58ea6103c317ea4cf8b = $(`<div id="html_6e0d7c6e7de3d58ea6103c317ea4cf8b" style="width: 100.0%; height: 100.0%;">인천 연수구 송도동 168-1</div>`)[0];
+            popup_a47f8f0a93641cf15d86495d9e0ab683.setContent(html_6e0d7c6e7de3d58ea6103c317ea4cf8b);
+        
+
+        circle_d44d0183ab8edf6a3ce8b9ade38d3901.bindPopup(popup_a47f8f0a93641cf15d86495d9e0ab683)
+        ;
+
+        
+    
+    
+            circle_d44d0183ab8edf6a3ce8b9ade38d3901.bindTooltip(
+                `<div>
+                     교보문고 송도바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_acedb54787d990998879d2d81a03001d = L.circle(
+                [35.5413702753031, 129.33899068743],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_26d813342ed52b910edc0b8c26d3cf0f = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_70e5e7654ea04fa77486c307c4643e01 = $(`<div id="html_70e5e7654ea04fa77486c307c4643e01" style="width: 100.0%; height: 100.0%;">울산 남구 삼산동 1569-12</div>`)[0];
+            popup_26d813342ed52b910edc0b8c26d3cf0f.setContent(html_70e5e7654ea04fa77486c307c4643e01);
+        
+
+        circle_acedb54787d990998879d2d81a03001d.bindPopup(popup_26d813342ed52b910edc0b8c26d3cf0f)
+        ;
+
+        
+    
+    
+            circle_acedb54787d990998879d2d81a03001d.bindTooltip(
+                `<div>
+                     교보문고 울산점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_39ab1fc5ab6032bd99ba78dd3414d9fd = L.circle(
+                [35.81905220310315, 127.14446619079695],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_6023c12b87af4816962a79639d3fe9e1 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_5313532baab7787b853598acba8a71bc = $(`<div id="html_5313532baab7787b853598acba8a71bc" style="width: 100.0%; height: 100.0%;">전북 전주시 완산구 고사동 105</div>`)[0];
+            popup_6023c12b87af4816962a79639d3fe9e1.setContent(html_5313532baab7787b853598acba8a71bc);
+        
+
+        circle_39ab1fc5ab6032bd99ba78dd3414d9fd.bindPopup(popup_6023c12b87af4816962a79639d3fe9e1)
+        ;
+
+        
+    
+    
+            circle_39ab1fc5ab6032bd99ba78dd3414d9fd.bindTooltip(
+                `<div>
+                     교보문고 전주바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3276f982fa723512669fa238294e0d3f = L.circle(
+                [36.8194607516261, 127.156024808054],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_82ccc43e41ad39a32e196d34e44c63fa = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_7b597d515d550d61379a5079205d9646 = $(`<div id="html_7b597d515d550d61379a5079205d9646" style="width: 100.0%; height: 100.0%;">충남 천안시 동남구 신부동 354-1</div>`)[0];
+            popup_82ccc43e41ad39a32e196d34e44c63fa.setContent(html_7b597d515d550d61379a5079205d9646);
+        
+
+        circle_3276f982fa723512669fa238294e0d3f.bindPopup(popup_82ccc43e41ad39a32e196d34e44c63fa)
+        ;
+
+        
+    
+    
+            circle_3276f982fa723512669fa238294e0d3f.bindTooltip(
+                `<div>
+                     교보문고 천안점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_36c6a48b6996b2c4e1db348a70e85e52 = L.circle(
+                [35.9439909461698, 128.562382596255],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_afecc67c9221d5b977e4d4d09cebac60 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_f49a89e7f9c18fe36b950c29b0466a3f = $(`<div id="html_f49a89e7f9c18fe36b950c29b0466a3f" style="width: 100.0%; height: 100.0%;">대구 북구 동천동 895-4</div>`)[0];
+            popup_afecc67c9221d5b977e4d4d09cebac60.setContent(html_f49a89e7f9c18fe36b950c29b0466a3f);
+        
+
+        circle_36c6a48b6996b2c4e1db348a70e85e52.bindPopup(popup_afecc67c9221d5b977e4d4d09cebac60)
+        ;
+
+        
+    
+    
+            circle_36c6a48b6996b2c4e1db348a70e85e52.bindTooltip(
+                `<div>
+                     교보문고 칠곡센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a38fd5dae6e2175fb9f708dae3454790 = L.circle(
+                [37.5088814570402, 126.88937621728],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_d176098b413101a8b5e192503f761ddd = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_980f3bdaf9d23d58f99bb688d977ef90 = $(`<div id="html_980f3bdaf9d23d58f99bb688d977ef90" style="width: 100.0%; height: 100.0%;">서울 구로구 신도림동 692</div>`)[0];
+            popup_d176098b413101a8b5e192503f761ddd.setContent(html_980f3bdaf9d23d58f99bb688d977ef90);
+        
+
+        circle_a38fd5dae6e2175fb9f708dae3454790.bindPopup(popup_d176098b413101a8b5e192503f761ddd)
+        ;
+
+        
+    
+    
+            circle_a38fd5dae6e2175fb9f708dae3454790.bindTooltip(
+                `<div>
+                     교보문고 디큐브시티바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0510e466942d3784dcd432b8ba76a010 = L.circle(
+                [37.5390737826709, 127.071147839538],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_3bcba7c9d6a443834f21217213c9d336 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_cbe820c8017ded2a8212927026fead2d = $(`<div id="html_cbe820c8017ded2a8212927026fead2d" style="width: 100.0%; height: 100.0%;">서울 광진구 자양동 227-342</div>`)[0];
+            popup_3bcba7c9d6a443834f21217213c9d336.setContent(html_cbe820c8017ded2a8212927026fead2d);
+        
+
+        circle_0510e466942d3784dcd432b8ba76a010.bindPopup(popup_3bcba7c9d6a443834f21217213c9d336)
+        ;
+
+        
+    
+    
+            circle_0510e466942d3784dcd432b8ba76a010.bindTooltip(
+                `<div>
+                     교보문고 건대 바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ef6692c55001560b5b2b97c8569eec96 = L.circle(
+                [37.39279718014944, 127.11204751299005],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_ad1ad46c389d0cf0907fafb5d7c1faf8 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_04949040a8d7355e582059dce95060ae = $(`<div id="html_04949040a8d7355e582059dce95060ae" style="width: 100.0%; height: 100.0%;">경기 성남시 분당구 백현동 541</div>`)[0];
+            popup_ad1ad46c389d0cf0907fafb5d7c1faf8.setContent(html_04949040a8d7355e582059dce95060ae);
+        
+
+        circle_ef6692c55001560b5b2b97c8569eec96.bindPopup(popup_ad1ad46c389d0cf0907fafb5d7c1faf8)
+        ;
+
+        
+    
+    
+            circle_ef6692c55001560b5b2b97c8569eec96.bindTooltip(
+                `<div>
+                     교보문고 판교점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_00fe5b4b4c79848d25787946f6d8754d = L.circle(
+                [37.45936204472003, 126.95057268434971],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_8e0d7103095329db4a7507568af5c0fa = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_b95a9e35155ec2865cfde18d29036b64 = $(`<div id="html_b95a9e35155ec2865cfde18d29036b64" style="width: 100.0%; height: 100.0%;">서울 관악구 신림동 산 56-1</div>`)[0];
+            popup_8e0d7103095329db4a7507568af5c0fa.setContent(html_b95a9e35155ec2865cfde18d29036b64);
+        
+
+        circle_00fe5b4b4c79848d25787946f6d8754d.bindPopup(popup_8e0d7103095329db4a7507568af5c0fa)
+        ;
+
+        
+    
+    
+            circle_00fe5b4b4c79848d25787946f6d8754d.bindTooltip(
+                `<div>
+                     교보문고 서울대교내서점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_62ab3c77af674fd72acf2f61ee90c354 = L.circle(
+                [37.6375379352402, 126.917899920451],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_6505ec1e4979d41deb0fb71060caff2e = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_1f79621c84e2a2e1291eecb4ea4e59a5 = $(`<div id="html_1f79621c84e2a2e1291eecb4ea4e59a5" style="width: 100.0%; height: 100.0%;">서울 은평구 진관동 67-31</div>`)[0];
+            popup_6505ec1e4979d41deb0fb71060caff2e.setContent(html_1f79621c84e2a2e1291eecb4ea4e59a5);
+        
+
+        circle_62ab3c77af674fd72acf2f61ee90c354.bindPopup(popup_6505ec1e4979d41deb0fb71060caff2e)
+        ;
+
+        
+    
+    
+            circle_62ab3c77af674fd72acf2f61ee90c354.bindTooltip(
+                `<div>
+                     교보문고 은평바로드림센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_48b53605458716d3a2ed38061df01e48 = L.circle(
+                [37.56154238314316, 126.9467238307828],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_a56f57435f20f25d3c93ab50d29927dd = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_d309add297e404bf18a2fad6e215e233 = $(`<div id="html_d309add297e404bf18a2fad6e215e233" style="width: 100.0%; height: 100.0%;">서울 서대문구 대현동 11-1</div>`)[0];
+            popup_a56f57435f20f25d3c93ab50d29927dd.setContent(html_d309add297e404bf18a2fad6e215e233);
+        
+
+        circle_48b53605458716d3a2ed38061df01e48.bindPopup(popup_a56f57435f20f25d3c93ab50d29927dd)
+        ;
+
+        
+    
+    
+            circle_48b53605458716d3a2ed38061df01e48.bindTooltip(
+                `<div>
+                     교보문고 이화여대교내서점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dbe6667a7a43ea3e26b016d1e4050d8e = L.circle(
+                [35.84567787544139, 127.12794024407813],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_91219297363bab7e6f38b8095377bf68 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_cee0142b6b1ad6fb4e5c4cbdbd4ce866 = $(`<div id="html_cee0142b6b1ad6fb4e5c4cbdbd4ce866" style="width: 100.0%; height: 100.0%;">전북 전주시 덕진구 덕진동1가 664-14</div>`)[0];
+            popup_91219297363bab7e6f38b8095377bf68.setContent(html_cee0142b6b1ad6fb4e5c4cbdbd4ce866);
+        
+
+        circle_dbe6667a7a43ea3e26b016d1e4050d8e.bindPopup(popup_91219297363bab7e6f38b8095377bf68)
+        ;
+
+        
+    
+    
+            circle_dbe6667a7a43ea3e26b016d1e4050d8e.bindTooltip(
+                `<div>
+                     교보문고 전북대교내서점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f4a0d292083ac9b6d0bc3f0b50f16ad8 = L.circle(
+                [37.5821420885893, 126.888869395142],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_41ca1a4a947bc87328947066ca031300 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_b369c05a8b3459725b4d77100e14a8a2 = $(`<div id="html_b369c05a8b3459725b4d77100e14a8a2" style="width: 100.0%; height: 100.0%;">서울 마포구 상암동 1596</div>`)[0];
+            popup_41ca1a4a947bc87328947066ca031300.setContent(html_b369c05a8b3459725b4d77100e14a8a2);
+        
+
+        circle_f4a0d292083ac9b6d0bc3f0b50f16ad8.bindPopup(popup_41ca1a4a947bc87328947066ca031300)
+        ;
+
+        
+    
+    
+            circle_f4a0d292083ac9b6d0bc3f0b50f16ad8.bindTooltip(
+                `<div>
+                     교보문고 이비즈니스본부
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7589a0e4bb423c137a5e7d75085ce92b = L.circle(
+                [37.5500675467401, 126.912427100123],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_861517b7b978ce58d3ffd41c72c38258 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_9e80c4baaa121448939ec1a94fc8d74e = $(`<div id="html_9e80c4baaa121448939ec1a94fc8d74e" style="width: 100.0%; height: 100.0%;">서울 마포구 합정동 472</div>`)[0];
+            popup_861517b7b978ce58d3ffd41c72c38258.setContent(html_9e80c4baaa121448939ec1a94fc8d74e);
+        
+
+        circle_7589a0e4bb423c137a5e7d75085ce92b.bindPopup(popup_861517b7b978ce58d3ffd41c72c38258)
+        ;
+
+        
+    
+    
+            circle_7589a0e4bb423c137a5e7d75085ce92b.bindTooltip(
+                `<div>
+                     교보문고
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_71b3817d861602f2ac4914f54d1685f2 = L.circle(
+                [35.1705794679784, 129.17722025413588],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_1d2026196bec25b26a32b95d11b4fbb0 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_4ad6c8a3ebbe81cfe99af4a7f430b123 = $(`<div id="html_4ad6c8a3ebbe81cfe99af4a7f430b123" style="width: 100.0%; height: 100.0%;">부산 해운대구 좌동 1467-4</div>`)[0];
+            popup_1d2026196bec25b26a32b95d11b4fbb0.setContent(html_4ad6c8a3ebbe81cfe99af4a7f430b123);
+        
+
+        circle_71b3817d861602f2ac4914f54d1685f2.bindPopup(popup_1d2026196bec25b26a32b95d11b4fbb0)
+        ;
+
+        
+    
+    
+            circle_71b3817d861602f2ac4914f54d1685f2.bindTooltip(
+                `<div>
+                     교보문고 해운대센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d4bfcfc64bda947a27798aa8d0672320 = L.circle(
+                [36.01296670965773, 129.32070865219742],
+                {"bubblingMouseEvents": true, "color": "#76BA99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#76BA99", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_132aabf073799106445ff8a2965abb10 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_320b090fe1fad650973e9bb8865b92cf = $(`<div id="html_320b090fe1fad650973e9bb8865b92cf" style="width: 100.0%; height: 100.0%;">경북 포항시 남구 효자동 산 27</div>`)[0];
+            popup_132aabf073799106445ff8a2965abb10.setContent(html_320b090fe1fad650973e9bb8865b92cf);
+        
+
+        circle_d4bfcfc64bda947a27798aa8d0672320.bindPopup(popup_132aabf073799106445ff8a2965abb10)
+        ;
+
+        
+    
+    
+            circle_d4bfcfc64bda947a27798aa8d0672320.bindTooltip(
+                `<div>
+                     교보문고 포항공대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b8b1d525378f5a5b459597ce265fb5fd = L.circle(
+                [37.559976256836194, 126.8405121622669],
+                {"bubblingMouseEvents": true, "color": "#F38BA0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F38BA0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_a3ae049e51a13c640fd3577601e3ea47 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_14d354600425c39cd7e7b2a0da086d08 = $(`<div id="html_14d354600425c39cd7e7b2a0da086d08" style="width: 100.0%; height: 100.0%;">서울 강서구 등촌동 689</div>`)[0];
+            popup_a3ae049e51a13c640fd3577601e3ea47.setContent(html_14d354600425c39cd7e7b2a0da086d08);
+        
+
+        circle_b8b1d525378f5a5b459597ce265fb5fd.bindPopup(popup_a3ae049e51a13c640fd3577601e3ea47)
+        ;
+
+        
+    
+    
+            circle_b8b1d525378f5a5b459597ce265fb5fd.bindTooltip(
+                `<div>
+                     YES24 강서NC점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4db231fbaec63596daf9a6994db33590 = L.circle(
+                [37.525173951992336, 126.87375866295642],
+                {"bubblingMouseEvents": true, "color": "#F38BA0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F38BA0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_6b5b665a75b7d227d1bf4c17049d3573 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_2f134d5c5f2e8a16784cef99bedc19d2 = $(`<div id="html_2f134d5c5f2e8a16784cef99bedc19d2" style="width: 100.0%; height: 100.0%;">서울 양천구 목동 406-21</div>`)[0];
+            popup_6b5b665a75b7d227d1bf4c17049d3573.setContent(html_2f134d5c5f2e8a16784cef99bedc19d2);
+        
+
+        circle_4db231fbaec63596daf9a6994db33590.bindPopup(popup_6b5b665a75b7d227d1bf4c17049d3573)
+        ;
+
+        
+    
+    
+            circle_4db231fbaec63596daf9a6994db33590.bindTooltip(
+                `<div>
+                     YES24 중고서점 목동점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c8ca67ff5d7ca22434fd25c261d6a745 = L.circle(
+                [35.176479224597074, 129.11504541015563],
+                {"bubblingMouseEvents": true, "color": "#F38BA0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F38BA0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_06ce07bb42c37cddba5d19ce782dbed8 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_e8434197745329d2038c7aadc946a227 = $(`<div id="html_e8434197745329d2038c7aadc946a227" style="width: 100.0%; height: 100.0%;">부산 수영구 망미동 475-1</div>`)[0];
+            popup_06ce07bb42c37cddba5d19ce782dbed8.setContent(html_e8434197745329d2038c7aadc946a227);
+        
+
+        circle_c8ca67ff5d7ca22434fd25c261d6a745.bindPopup(popup_06ce07bb42c37cddba5d19ce782dbed8)
+        ;
+
+        
+    
+    
+            circle_c8ca67ff5d7ca22434fd25c261d6a745.bindTooltip(
+                `<div>
+                     YES24 중고서점 수영F1963점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dc4218a6ecc02cf8ab9930783a0aaeae = L.circle(
+                [37.22518515032962, 127.12093048236947],
+                {"bubblingMouseEvents": true, "color": "#F38BA0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F38BA0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_15fb46ddbcc6dd718ab725856e621c1b = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_427ca33a0ec5af600f1113678677fe0b = $(`<div id="html_427ca33a0ec5af600f1113678677fe0b" style="width: 100.0%; height: 100.0%;">경기 용인시 기흥구 고매동 산 36-1</div>`)[0];
+            popup_15fb46ddbcc6dd718ab725856e621c1b.setContent(html_427ca33a0ec5af600f1113678677fe0b);
+        
+
+        circle_dc4218a6ecc02cf8ab9930783a0aaeae.bindPopup(popup_15fb46ddbcc6dd718ab725856e621c1b)
+        ;
+
+        
+    
+    
+            circle_dc4218a6ecc02cf8ab9930783a0aaeae.bindTooltip(
+                `<div>
+                     YES24 중고서점 기흥점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4889db54770e6cd9e6a4d8364bf43bf4 = L.circle(
+                [35.8649601461366, 128.589352316375],
+                {"bubblingMouseEvents": true, "color": "#F38BA0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F38BA0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_015b71f7192bd6ddbc6bf01205984b1f = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_87d87bf5f953962b5e16bf527affc35c = $(`<div id="html_87d87bf5f953962b5e16bf527affc35c" style="width: 100.0%; height: 100.0%;">대구 중구 남산동 437</div>`)[0];
+            popup_015b71f7192bd6ddbc6bf01205984b1f.setContent(html_87d87bf5f953962b5e16bf527affc35c);
+        
+
+        circle_4889db54770e6cd9e6a4d8364bf43bf4.bindPopup(popup_015b71f7192bd6ddbc6bf01205984b1f)
+        ;
+
+        
+    
+    
+            circle_4889db54770e6cd9e6a4d8364bf43bf4.bindTooltip(
+                `<div>
+                     YES24 중고서점 대구반월당점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f25abc410430f6e9c60a2ae04f00cd5b = L.circle(
+                [35.15612067258014, 129.05886770059476],
+                {"bubblingMouseEvents": true, "color": "#F38BA0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F38BA0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_bf48ef70720087e2fd0f7ea93f11c5e1 = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_283af8806a420656183361dcf2dfdeed = $(`<div id="html_283af8806a420656183361dcf2dfdeed" style="width: 100.0%; height: 100.0%;">부산 부산진구 부전동 255-33</div>`)[0];
+            popup_bf48ef70720087e2fd0f7ea93f11c5e1.setContent(html_283af8806a420656183361dcf2dfdeed);
+        
+
+        circle_f25abc410430f6e9c60a2ae04f00cd5b.bindPopup(popup_bf48ef70720087e2fd0f7ea93f11c5e1)
+        ;
+
+        
+    
+    
+            circle_f25abc410430f6e9c60a2ae04f00cd5b.bindTooltip(
+                `<div>
+                     YES24 중고서점 부산서면점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1ae36cef709b36ac3315b7c57d9081f9 = L.circle(
+                [36.6262253631011, 127.431147550791],
+                {"bubblingMouseEvents": true, "color": "#F38BA0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#F38BA0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_99a9d6af713e3e46b0c4a1f9002b4ba5);
+        
+    
+        var popup_7b2bae1fe7879c064907c529c42230ec = L.popup({"maxHeight": 450, "maxWidth": 450});
+
+        
+            var html_eb4988e543b14e597a6b6d2bf4a47f57 = $(`<div id="html_eb4988e543b14e597a6b6d2bf4a47f57" style="width: 100.0%; height: 100.0%;">충북 청주시 흥덕구 가경동 1416-3</div>`)[0];
+            popup_7b2bae1fe7879c064907c529c42230ec.setContent(html_eb4988e543b14e597a6b6d2bf4a47f57);
+        
+
+        circle_1ae36cef709b36ac3315b7c57d9081f9.bindPopup(popup_7b2bae1fe7879c064907c529c42230ec)
+        ;
+
+        
+    
+    
+            circle_1ae36cef709b36ac3315b7c57d9081f9.bindTooltip(
+                `<div>
+                     YES24 중고서점 청주NC점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
